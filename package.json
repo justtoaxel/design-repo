@@ -19,6 +19,6 @@
     "uglify-js": "^3.6.5"
   },
   "dependencies": {
-    "lighthouse": "^9.0.0"
+    "lighthouse": "^9.6.8"
   }
 }
