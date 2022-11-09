@@ -1,5 +1,5 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: image/aragorn.jpg
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
