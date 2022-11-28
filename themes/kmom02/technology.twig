@@ -1,0 +1,26 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>Teknologier</h2>
+    <h3><a href="html">HTML</a></h3>
+    <h3><a href="css">CSS</a></h3>
+    <h3><a href="javascript">Javascript</a></h3>
+    <h3><a href="php">PHP</a></h3>
+    <h3><a href="python">Python</a></h3>
+    <h3><a href="git">GIT</a></h3>
+    <h3><a href="sqlite">SQlite</a></h3>
+  </div>
+  <div class="main">
+    {{ content }}
+  </div>
+</div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
