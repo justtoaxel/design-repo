@@ -1,6 +1,6 @@
 ---
 Title: Home
-Description: This is our index page.
+Description: This is our index page and also our about page.
 ---
 
 Axels portfölj
