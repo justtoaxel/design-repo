@@ -6481,6 +6481,71 @@ pre code {
   background-color: rgb(240, 240, 240);
 }
 
+.gallery-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto;
+  background-color: rgba(34, 34, 34, 0.794);
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-image {
+  z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .gallery-container {
+    grid-template-columns: 1fr;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .gallery-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  border: none;
+  margin: auto;
+  width: 50%;
+}
+
+.responsive-iframe2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 75%;
+  height: 75%;
+  border: none;
+  margin: auto;
+  width: 75%;
+}
+
 * {
   font-family: "Open Sans", sans-serif;
 }
