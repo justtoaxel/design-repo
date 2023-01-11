@@ -35,7 +35,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: opacity($color: #0000007c);
+    color: #ff000043;
 }
 
 .body {
@@ -83,12 +83,15 @@ a:hover {
     flex: 20%;
     border-right: 2px;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.222) 5px 5px 10px;
 }
 
 /* Main column */
 .main {
     flex: 80%;
-    padding: 20px;
+    padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 /* Fake image, just for this example */
@@ -116,7 +119,7 @@ a:hover {
 .grid-container {
     display: grid;
     gap: 10px;
-    background-color: #2196f3;
+    background-color: #6eb06a !important;
     padding: 10px;
 }
 
@@ -127,7 +130,7 @@ a:hover {
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #0000001e;
     text-align: center;
     padding: 20px;
     font-size: 30px;
@@ -156,4 +159,9 @@ a:hover {
 .item7 {
     grid-column: 2 / span 3;
     grid-row: 5;
+}
+
+table {
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: rgba(0, 0, 0, 0.222) 5px 5px;
 }

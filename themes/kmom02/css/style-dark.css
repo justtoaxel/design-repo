@@ -6477,8 +6477,17 @@ pre code {
 .header {
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 4px 10px -2px rgb(134, 134, 134);
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.471);
   background-color: rgb(240, 240, 240);
+}
+
+#nav {
+  font-size: 20px;
+}
+
+#nav li a:not(:nth-child(4)) {
+  font-size: 20px;
+  border: dotted rgba(0, 0, 0, 0.841);
 }
 
 .gallery-container {
@@ -6550,6 +6559,10 @@ pre code {
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  background: #131516;
+}
+
 h1,
 h2,
 h3,
@@ -6557,6 +6570,7 @@ h4,
 h5,
 h6 {
   font-family: "Open Sans", sans-serif;
+  color: white;
 }
 
 a {
@@ -6564,9 +6578,12 @@ a {
   color: inherit;
 }
 
-a:hover {
-  text-decoration: none;
-  color: 0.4862745098;
+p {
+  color: white;
+}
+
+i {
+  color: white;
 }
 
 .body {
@@ -6597,7 +6614,7 @@ a:hover {
 .header {
   padding: 60px;
   text-align: center;
-  background: #6eb06a;
+  background: rgba(109, 176, 106, 0.4823529412);
 }
 
 /* Column container */
@@ -6632,7 +6649,7 @@ a:hover {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: rgba(255, 255, 255, 0.099);
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -6644,5 +6661,61 @@ a:hover {
 }
 /* Längst ner i min style-dark.scss */
 .main {
-  background-color: #2b2f31;
+  background-color: rgba(255, 255, 255, 0.0823529412);
+}
+
+#nav {
+  font-size: 20px;
+  color: white;
+}
+
+#nav li a:not(:nth-child(4)) {
+  font-size: 20px;
+  border: dotted rgba(0, 0, 0, 0.841);
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  background-color: #4a7648 !important;
+  padding: 10px;
+}
+
+.grid-title {
+  grid-column: span 4;
+  grid-row: 1;
+  text-align: center;
+}
+
+.grid-item {
+  background-color: rgba(0, 0, 0, 0.1176470588);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 2/span 3;
+  grid-row: 2;
+}
+
+.item3 {
+  grid-column: 1/span 3;
+  grid-row: 3;
+}
+
+.item5 {
+  grid-column: span 4;
+  grid-row: 4;
+}
+
+.item6 {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.item7 {
+  grid-column: 2/span 3;
+  grid-row: 5;
 }

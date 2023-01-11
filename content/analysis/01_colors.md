@@ -23,7 +23,7 @@ Resultat
 -----------------------
 
 <h1>World of Warcraft Classic</h1>
-<div class="gallery-item"><a href="image/wowclassic.jpg"><img src="image/theoden.jpg?w=854&h=480&crop-to-fit"></a></div>
+<div class="gallery-item"><a href="../image/wowclassic.jpg"><img src="../image/wowclassic.jpg?w=854&h=480&crop-to-fit"></a></div>
 
 Warcraft är ett varumärke som grundade sig som en spelserie vars usprungliga utsläpps datum var 1994 i USA och 1995 inom EU. Spelet har under dess tid utgivits i olika former av olika speltitlar. En av de mest populära av dessa titlar var och är World of Warcraft som släpptes ursprunglingen 2005-2006. Denna historia tycker jag är intressant eftersom publicerings datumena tycker jag reflekterar designen av de hemsidor som gjorts. I nuvarande skede finns det 2 versioner av World of Warcraft, en som är en äldre utgåva av spelet och en som är modern. Kontrasten mellan hemsidorna för dessa båda varianterna skiljer sig mycket, och just den gamla versionen har en design aspekt som återspeglar den sida som fanns tidigare medans den modernare versionen har en mer modern och minimalistisk design men behåller en del av design aspekterna.
 
@@ -42,7 +42,7 @@ Typsnittet för brödtext är sans-serif i arial och helvetica. Troligtvis är d
 </table>
 
 <h1>World of Warcraft Retail</h1>
-<div class="gallery-item"><a href="image/wowretail.jpg"><img src="image/theoden.jpg?w=854&h=480&crop-to-fit"></a></div>
+<div class="gallery-item"><a href="../image/wowretail.jpg"><img src="../image/wowretail.jpg?w=854&h=480&crop-to-fit"></a></div>
 
 World of Warcraft Retail, som då är den "moderna" versionen av World of Warcraft har vid första intryck en annorlunda design vad gäller nästan allt. Sidan är fylld i allmänhet med mycket flera olika intryck och använder sig av 2 stycken olika navbars. Den känns i allmänhet lite mer stökig, samtidigt har den även än betydligt mer nedskalad design vad gäller grafiska element och förlitar istället sig på bilder som fungerar lite som en mosaik. Om vi tittar på ramarna på denna sida ser vi standard borders med 1px thickness istället för sådana som var utformade i externa program. Vi ser även hur typsnit vad gäller både headers and brödtext har bytt till sans-serif och det finns alltså ingen skillnad. Färgvalet tar även en hel annan palett och det kan vara lite svårt att utröna exakt vilka dessa färger är eftersom många av dessa varierar utifrån vilket media material som används. Men överlag är Primär färgen en brun nyans, den röda färgen den sekundära men den delar samma accent färg som World of Warcraft Classic.
 
@@ -57,7 +57,7 @@ Typsnitt till skillnad från World of Warcraft Classic, är i "retail" bara gjor
 </table>
 
 <h1>Avanza</h1>
-<div class="gallery-item"><a href="image/avanza.jpg"><img src="image/theoden.jpg?w=854&h=480&crop-to-fit"></a></div>
+<div class="gallery-item"><a href="../image/avanza.jpg"><img src="../image/avanza.jpg?w=854&h=480&crop-to-fit"></a></div>
 
 Avanza har en väldigt minimalistisk design. Sidan använder sig av få bilder och de illustrationer som används är oftast små i format eller är gjorda i vektor format. Det utnyttjar borders inom CSS och har inte egna element för sådant. Den har en tydlig och enkel färg design där huvudfärgen är grön på vitt med en sekundär färg som är någon mörkare form av turkos blå. Sidan är enkelt designad och det märks att den är genomtänkt på så sätt att den ska försöka samtidigt som den ska inte överrumpa sinnena med för mycket intryck. Jag tror design valet av hemsidan är väl designat och det passar även bra för människor som kanske sitter och håller på mycket med investeringar, då det rör sig om mycket siffror och namn så kan det vara skönt att inte ha för mycket "clutter" runtomkring på resten av sidorna.
 

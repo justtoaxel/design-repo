@@ -28,14 +28,14 @@ Resultat
 -----------------------
 
 <h1>World of Warcraft Classic</h1>
-<div class="gallery-item"><a href="image/wowclassic.jpg"><img src="image/theoden.jpg?w=854&h=480&crop-to-fit"></a></div>
+<div class="gallery-item"><a href="../image/wowclassic.jpg" alt="WoW Classic"><img src="../image/wowclassic.jpg?w=854&h=480&crop-to-fit" alt="WoW Classic"></a></div>
 
 Denna webbplays har endast en sida och däför kommer analysen bara utgöras av sida 1: https://wowclassic.blizzard.com/en-gb/
 
 Sidan för World of Warcraft CLassic skulle kunna förbättra sin tillgänglighet genom att byta typsnitt till sans-serif. Sidan skulle även kunna ta bort grafiska element för att öka prestanda och ha mindre element som tar plats, dock såklart med nackdelen att designen blir mindre speciell.
 
 <h1>World of Warcraft Retail</h1>
-<div class="gallery-item"><a href="image/wowretail.jpg"><img src="image/theoden.jpg?w=854&h=480&crop-to-fit"></a></div>
+<div class="gallery-item"><a href="../image/wowretail.jpg" alt="WoW Retail"><img src="../image/wowretail.jpg?w=854&h=480&crop-to-fit" alt="WoW Retail"></a></div>
 
 Sida 1: https://worldofwarcraft.com/en-gb/
 Sida 2: https://worldofwarcraft.com/en-gb/story
@@ -44,7 +44,7 @@ Sida 3: https://worldofwarcraft.com/en-gb/news
 Sidan utnyttjar en stor del bilder och skulle kunna sänka lite antalet bilder och resurser som används. På framsidan använder dom sig av ett videoklipp som tar ganska mycket på prestanda, det skulle kunna vara mer lämpligt att använda sig av en rörande grafik så som de gjort på World of Warcraft Classic. PÅ nyhets och story sidorna laddas väldigt mnga resurser in och det skulle vara mer lämpligt att kanske ha en dynamisk inladdning istället som laddar in allt eftersom man skrollar igenom.
 
 <h1>Avanza</h1>
-<div class="gallery-item"><a href="image/avanza.jpg"><img src="image/theoden.jpg?w=854&h=480&crop-to-fit"></a></div>
+<div class="gallery-item"><a href="../image/avanza.jpg" alt="Avanza"><img src="../image/avanza.jpg?w=854&h=480&crop-to-fit" alt="Avanza"></a></div>
 
 Sida 1: https://www.avanza.se/start
 Sida 2: https://www.placera.se/placera/forstasidan.html
@@ -57,10 +57,10 @@ Analys
 -----------------------
 
 <div class="container">
-<iframe class="responsive-iframe2" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpikrosG2G5nn75vavU23pWF6ItKJvKaglSbmoKdKSeHAtdQJoyQWAx8gU2xyniDppsw6YxUF4LWPs/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe title="Website Measurements" class="responsive-iframe2" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpikrosG2G5nn75vavU23pWF6ItKJvKaglSbmoKdKSeHAtdQJoyQWAx8gU2xyniDppsw6YxUF4LWPs/pubhtml?widget=true&amp;headers=false"></iframe>
 </div>
 
-Överlag verkar det som att de flesta sidorna har behov av att ha ökad prestanda på mobila enheter. Framförallt för sidorna från World of Warcraft är det ett stort behov av att sänka antalet resurser som har requests. Avanza har inte riktigt samma problem, men det har överlag med att göra eftersom Avanza framförallt har landningssidor jämförelsevis med de andra sidorna vars bibliotek och nyhetssidor har ett väldigt stort antal innehåll. World of Warcraft retail skulle som tidigare ponerat, behöva limitera inladddning av resurser tills de behövs, istället för att ladda in alla på en gång. 
+Överlag verkar det som att de flesta sidorna har behov av att ha ökad prestanda på mobila enheter. Framförallt för sidorna från World of Warcraft är det ett stort behov av att sänka antalet resurser som har requests. Avanza har inte riktigt samma problem, men det har överlag med att göra eftersom Avanza framförallt har landningssidor jämförelsevis med de andra sidorna vars bibliotek och nyhetssidor har ett väldigt stort antal innehåll. World of Warcraft retail skulle som tidigare ponerat, behöva limitera inladddning av resurser tills de behövs, istället för att ladda in alla på en gång.
 
 
 Det gränsvärde som jag ser som optimalt för hemsidor är en laddningstid på under 3 sekunder. Samtliga sidor klarar detta mått väl men återigen så är World of Warcraft retail efter vad gäller just deras story sektion. I denna sektion laddas sidan ner på 5 sekunder, och detta är eftersom den laddar ner väldigt mycket data istället för att servera information allt eftersom.
